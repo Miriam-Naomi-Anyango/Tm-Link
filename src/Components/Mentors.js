@@ -12,6 +12,7 @@ function Mentors () {
     .then(res => res.json())
     .then((data)=> setMentors(data))
   },[])
+  
   return (
     <div className='mymentors'>
         <div className='guimage'>
@@ -38,12 +39,18 @@ function Mentors () {
             </div>
         </div>
 
-        {mentors.map((mentor) => (<div className="imgg" key={mentor.id}>
-              <img src={mentor.image}/>
-            <div className="text">
-              <p>{mentor.name}</p>
-            </div>
+        <div className='wasee'>
+
+        {mentors.map((mentor) => (
+        <div key={mentor.id}>
+          <div>
+        <img 
+        className='imagyra'
+        src={mentor.image}/>
+          <p>{mentor.name}</p>
+        </div>
         </div>))}
+        </div>
         
     </div>
   )

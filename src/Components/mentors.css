@@ -43,3 +43,16 @@
 .kaimage{
     margin-bottom: 100px;
 }
+.wasee{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 200px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.imagyra{
+    width: 300px;
+    height: 350px;
+}
