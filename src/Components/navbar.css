@@ -1,0 +1,29 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color:#ac0272;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+.item{
+        display: flex;
+        justify-content: space-between;
+        padding-right: 70px;
+        padding-left: 50px;
+        margin-left: 10px;
+        margin-right: 90px;
+        font-weight: bolder;
+        font-size: xx-large;
+        
+  }
+
+.logo{
+    font-size: xx-large;
+    font-weight: 700;
+  }
+.navigation-items{
+    display: flex;
+    justify-content: space-around
+
+}
