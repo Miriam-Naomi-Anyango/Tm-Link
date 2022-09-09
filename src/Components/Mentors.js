@@ -38,6 +38,9 @@ function Mentors () {
             alt=''/>
             </div>
         </div>
+        <div>
+          <h3 className='mentorheading'>Know your TM</h3>
+        </div>
 
         <div className='wasee'>
 
@@ -47,7 +50,7 @@ function Mentors () {
         <img 
         className='imagyra'
         src={mentor.image}/>
-          <p>{mentor.name}</p>
+          <p className='kadogo'>{mentor.name}</p>
         </div>
         </div>))}
         </div>
