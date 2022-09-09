@@ -1,9 +1,19 @@
 import './mentors.css';
-import React from 'react'
+import React, {useState, useEffect} from 'react';
+
+
+
 
 function Mentors () {
+  const [mentors, setMentors] = useState([])
+
+  useEffect(()=>{
+    fetch('http://localhost:9292/mentors')
+    .then(res => res.json())
+    .then((data)=> setMentors(data))
+  },[])
   return (
-    <div className='mentors'>
+    <div className='mymentors'>
         <div className='guimage'>
             <img 
             className='myguimage'
@@ -25,9 +35,16 @@ function Mentors () {
             className='mykaimage'
             src='https://cdn.mentorcruise.com/cache/77bf1229aa22549a3ca06322bffa9878/14d2fc4ee7156cff/6ed7c26057318e9e48c4f60375541640.jpg'
             alt=''/>
-
             </div>
         </div>
+
+        {mentors.map((mentor) => (<div className="imgg" key={mentor.id}>
+              <img src={mentor.image}/>
+            <div className="text">
+              <p>{mentor.name}</p>
+            </div>
+        </div>))}
+        
     </div>
   )
 }

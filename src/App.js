@@ -10,7 +10,10 @@ import Support from './Components/Support';
 import { Route, Routes } from "react-router-dom";
 // import {useState, useEffect} from 'react';
 
-function App() {
+
+
+
+function App(){ 
   return (
     <div>
     <NavBar />
