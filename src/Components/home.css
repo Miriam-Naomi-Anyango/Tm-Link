@@ -1,0 +1,25 @@
+.Moringa1 {
+    display: flex;
+    padding-left: 2px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+    
+}
+div.intro-text {
+    font-size: x-large;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.imagioso{
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+
+button.btn{
+    background-color: #EC4067;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: #EC4067;
+ }
