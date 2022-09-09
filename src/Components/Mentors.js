@@ -10,7 +10,7 @@ function Mentors () {
             src='https://d2m6ke2px6quvq.cloudfront.net/uploads/2020/07/15/8e817361-fe75-4520-815c-b438c0451d2b.jpg'
             alt=''/>
         </div>
-        <div>
+        <div className='slogan'>
             <span className='discover'>Discover.</span><span className='grow'>Grow.</span><span className='transform'>Transform.</span>
         </div>
         <div className='message'>

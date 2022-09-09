@@ -1,0 +1,32 @@
+.message{
+    display: flex;
+}
+.slogan{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.discover{
+    border: solid #EC4067;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+.grow{
+    border: solid #EC4067;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+.transform{
+    border: solid #EC4067;
+    padding: 30px;
+    margin-right: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
