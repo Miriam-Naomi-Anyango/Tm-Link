@@ -22,7 +22,7 @@ function Mentors () {
             </div>
             <div className='kaimage'>
             <img 
-            className='myguimage'
+            className='mykaimage'
             src='https://cdn.mentorcruise.com/cache/77bf1229aa22549a3ca06322bffa9878/14d2fc4ee7156cff/6ed7c26057318e9e48c4f60375541640.jpg'
             alt=''/>
 

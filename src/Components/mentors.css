@@ -30,3 +30,16 @@
     font-size: larger;
     font-weight: bold;
 }
+.writings{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 20px;
+}
+.mykaimage{
+    border-radius: 10px;
+    margin-bottom: 50px;
+   
+}
+.kaimage{
+    margin-bottom: 100px;
+}
