@@ -23,7 +23,7 @@ function NavBar () {
               background: "pink",
             }}
           >
-            TM Link
+            TMLink
           </NavLink>
           </div>
         
