@@ -8,7 +8,7 @@ function Mentors () {
   const [mentors, setMentors] = useState([])
 
   useEffect(()=>{
-    fetch('http://localhost:9292/mentors')
+    fetch('https://mwalimustudentpage.herokuapp.com/mentors')
     .then(res => res.json())
     .then((data)=> setMentors(data))
   },[])

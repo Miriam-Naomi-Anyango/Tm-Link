@@ -4,6 +4,12 @@ import React from 'react'
 function Home (){
   return (
     <div className='top'>
+      <div>
+        <img 
+        className='kwanza'
+        src=''
+        />
+      </div>
     <div className='Moringa1'>
          <div className ='intro-text'>
            <h6>
