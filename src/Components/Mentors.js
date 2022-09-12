@@ -43,6 +43,7 @@ function Mentors () {
         </div>
 
         <div className='wasee'>
+          
 
         {mentors.map((mentor) => (
         <div key={mentor.id}>
