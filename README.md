@@ -40,3 +40,11 @@ The students can also be aware of their Technical Mentors so that when they get 
 The institution management can also use this data to relate students to their Technical Mentors for easy tracking and management.
 
 </p>
+
+## Features
+As a user of this web application, you will be able to:
+1. See the navigation bar with the menu items, Home, Reviews, stories, mentors and support as well as the logo.
+
+2. See a display of popular mentors images and names on the mentors page and reviews for particular mentors on the reviews section.
+
+Note: THe scores for each review appear but then the students names who reviewed the particular mentors is not there.
