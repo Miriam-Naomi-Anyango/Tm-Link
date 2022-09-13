@@ -14,11 +14,11 @@ function Reviews () {
     {reviews.map((review) => (
     <div key={review.id}>
       <div className='myreviews'>
-      <div>
-        <p>{review.mentor_id}</p>
+      <div className='allreviews'>
+        <p>{review.mentor}</p>
         <p>{review.score}</p>
         <p>{review.comment}</p>
-        <p>{review.student_id}</p>
+        <p>{review.student}</p>
       </div>
       </div>
     </div>))}
