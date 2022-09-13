@@ -48,3 +48,15 @@ As a user of this web application, you will be able to:
 2. See a display of popular mentors images and names on the mentors page and reviews for particular mentors on the reviews section.
 
 Note: THe scores for each review appear but then the students names who reviewed the particular mentors is not there.
+
+## Installation Requirement
+In order to install and use the application one will require the following
+
+* Access to eithera computer, a smartphone a tablet or any other gadget.
+* Access to Internet/ Internet connection.
+
+## Live Link
+Click this link to view the live application.
+
+LiveLink -[Heroku Live Link](
+https://tm-link.vercel.app/)
