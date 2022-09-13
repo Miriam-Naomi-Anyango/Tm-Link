@@ -60,3 +60,15 @@ Click this link to view the live application.
 
 LiveLink -[Heroku Live Link](
 https://tm-link.vercel.app/)
+
+## Technology Used 
+
+* CSS - Used to style the user Interface.
+
+* React - Used to add interactivity to the website and acheieve the functionality of the app, by offering appropriate information the user may seek for.
+
+* Ruby - develop the backend of the web app used to design the database that holds my data used to make API endpoints used in React front end"
+
+## Future Improvement
+The application offers only TM names but one can't know the students attached to this TMs and in future this is planned to be implemented.
+
